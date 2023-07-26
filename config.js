@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'Everett',
-	imageBackground: false,
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -20,7 +20,7 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to sleep!',
 
 	// Layout
 	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
@@ -36,7 +36,7 @@ const CONFIG = {
 	defaultLongitude: '-93.265015',
 
 	// Autochange
-	autoChangeTheme: false,
+	autoChangeTheme: true,
 
 	// Autochange by OS
 	changeThemeByOS: true,
@@ -221,7 +221,7 @@ const CONFIG = {
 					link: 'https://leetcode.com/problemset/all/',
 				},
 				{
-					name: 'Repos',
+					name: 'Github',
 					link: 'https://github.com/evgoetz',
 				},
 			],
